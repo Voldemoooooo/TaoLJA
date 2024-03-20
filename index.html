@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Inkognito - private investigator HTML website template">
+  <!-- fav icon -->
+  
+
+  <!-- bootstarp css file -->
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+
+  <!--  owl carousel file     -->
+  <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+
+  <!--  toasts file     -->
+  <link rel="stylesheet" href="static/css/toastr.min.css">
+
+  <!--  aos file     -->
+  <link rel="stylesheet" href="static/css/aos.css">
+
+  <!-- fontawesome icons -->
+  <link rel="stylesheet" href="static/css/all.min.css">
+  <link rel="stylesheet" href="static/css/all.min1.css">
+
+  <!-- main css file -->
+  <link rel="stylesheet" href="static/css/styles.css">
+  <title>Inkognito - private investigator HTML website template</title>
+</head>
+
+<body class="body">
+
+  <!-- start preLoader -->
+  <div id="preloader">
+    <div class="p">LOADING</div>
+  </div>
+  <!-- end preLoader -->
+
+  <!-- start scroll to top button -->
+  <div id="progress">
+    <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
+  </div>
+  <!-- end scroll to top button -->
+
+
+  <!-- ======= start Header ======= -->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a href="#">
+          <h3 class="heading-2 primary-text">TaoLJA</h3>
+        </a>
+        <!-- if you prefer to use an image as logo -->
+        <!-- <a class="navbar-brand " href="#"><img src="images/logo/logo.png" class="logo" alt="LOGO"></a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav ms-auto" id="navbar">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="">主页</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">关于我们</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">解决方案</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">联系我们</a>
+            </li>
+          </ul>
+          <div class="d-flex gap-2 ms-auto">
+            <a class="btn" href="#contact">联系我们</a>
+            <button id="mode-toggle" class="btn-light-mode switch-button">
+              <i id="mode-icon" class="fa-solid fa-moon icon-md"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- ======= end Header ======= -->
+
+  <!-- ============== Start Hero section ========== -->
+  <section class="hero position-relative section mt-4" id="hero">
+    <div class="container">
+      <div class="row align-items-center justify-content-center g-4">
+        <div class="col-lg-6 col-12">
+          <div class="d-flex flex-column gap-16">
+            <h1 class="heading-1 heading-hero col-lg-11 col-12" data-aos="fade-up" data-aos-delay="100">桃李佳，励志让每个开发人员只专注客户需求实现
+			</h1>
+            <p class="body-1" data-aos="fade-up" data-aos-delay="150">致力于让每位开发人员将注意力集中在客户需求的实现上。我们深知，客户的成功是我们最大的追求。因此，我们不断丰富自己的专业知识，不断提升技术水平，以确保我们能够为客户提供最优质的服务。我们相信，通过我们的努力和专注，我们能够为客户创造出更加美好的未来。</p>
+            <div class="d-flex justify-content-center align-items-center gap-8">
+              <div class="col-lg-4 col-md-4 col-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-8">
+                  <h1 class="heading-1">+<span class="counter">12</span></h1>
+                  <p class="body-1">累计服务客户</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-4" data-aos="fade-up" data-aos-delay="250">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-8">
+                  <h1 class="heading-1"><span class="counter">23</span></h1>
+                  <p class="body-1">交付项目个数</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-8">
+                  <h1 class="heading-1">+<span class="counter">87</span>W</h1>
+                  <p class="body-1">累计交付代码行数</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex gap-8" data-aos="fade-up" data-aos-delay="350">
+              <a href="#contact" class="btn">联系我们</a>
+              <a href="#" class="btn-outline">更多信息</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-delay="100">
+          <div class="img">
+            <img src="static/picture/hero.jpg" alt="hero">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== End Hero section ========== -->
+
+  <!-- ============== Start services section ========== -->
+  <section class="services section" id="services">
+    <div class="container d-flex flex-column gap-64">
+      <div class="heading d-flex flex-column">
+        <h1 class="heading-1" data-aos="fade-up">private investigation services</h1>
+        <p class="body-1 col-lg-8" data-aos="fade-up" data-aos-delay="100">Our seasoned team of experts at Inkognito
+          specializes in unravelling mysteries,
+          conducting thorough background checks, and uncovering the truth with utmost confidentiality.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 col-12" data-aos="fade-right" data-aos-delay="200">
+          <div class="d-flex flex-column gap-16 padding-16 py-4 bg-box">
+            <i class="fa-solid fa-magnifying-glass icon-lg"></i>
+            <h2 class="heading-2">surveillance services</h2>
+            <p class="body-2">
+              redefines the art of sleuthing with unparalleled professionalism and precision. Our seasoned team of
+              experts at Inkognito specializes in unravelling mysteries, conducting thorough background checks, and
+              uncovering the truth with utmost confidentiality.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="150">
+          <div class="d-flex flex-column gap-16 padding-16 py-4 bg-box">
+            <i class="fa-solid fa-user-shield icon-lg"></i>
+            <h2 class="heading-2">personal protection</h2>
+            <p class="body-2">
+              redefines the art of sleuthing with unparalleled professionalism and precision. Our seasoned team of
+              experts at Inkognito specializes in unravelling mysteries, conducting thorough background checks, and
+              uncovering the truth with utmost confidentiality.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12" data-aos="fade-left" data-aos-delay="200">
+          <div class="d-flex flex-column gap-16 padding-16 py-4 bg-box">
+            <i class="fa-solid fa-binoculars icon-lg"></i>
+            <h2 class="heading-2">infidelity investigation</h2>
+            <p class="body-2">
+              redefines the art of sleuthing with unparalleled professionalism and precision. Our seasoned team of
+              experts at Inkognito specializes in unravelling mysteries, conducting thorough background checks, and
+              uncovering the truth with utmost confidentiality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== End services section ========== -->
+
+  <!-- ============== start about section ============== -->
+  <section class="about section position-relative pt-4 mt-4" id="about">
+    <div class="container d-flex flex-column gap-64">
+      <div class="row justify-content-center align-items-center g-4">
+        <div class="col-lg-6 col-12">
+          <div class="d-flex flex-column">
+            <h1 class="heading-1" data-aos="fade-right">
+              Expertise You Can Trust, Results You Can Rely On.
+            </h1>
+            <p class="body-1" data-aos="fade-up" data-aos-delay="100">
+              Inkognito, your premier destination for discreet and comprehensive investigative services, redefines the
+              art of sleuthing with unparalleled professionalism and precision. Our seasoned team of experts at
+              Inkognito specializes in unravelling mysteries, conducting thorough background checks, and uncovering the
+              truth with utmost confidentiality. At the intersection of cutting-edge technology and traditional
+              investigative methods.
+            </p>
+            <div class="d-flex justify-content-center align-items-center gap-8">
+              <div class="col-lg-4 col-md-4 col-4">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-8" data-aos="fade-right" data-aos-delay="200">
+                  <h1 class="heading-1">+<span class="counter">30</span></h1>
+                  <p class="body-1">Team members</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-4" data-aos="fade-up" data-aos-delay="150">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-8">
+                  <h1 class="heading-1"><span class="counter">20</span></h1>
+                  <p class="body-1">Happy Customers</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-4" data-aos="fade-left" data-aos-delay="200">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-8">
+                  <h1 class="heading-1">+<span class="counter">12</span></h1>
+                  <p class="body-1">years of experience</p>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn w-fit" data-aos="fade-up" data-aos-delay="250">contact us</a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-delay="150">
+          <div class="img">
+            <img src="static/picture/1.jpg" alt="about">
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center g-4">
+        <div class="col-lg-6 col-12" data-aos="fade-right" data-aos-delay="200">
+          <div class="img">
+            <img src="static/picture/about-3.jpg" alt="about">
+          </div>
+        </div>
+        <div class="col-lg-6 col-12">
+          <div class="d-flex flex-column">
+            <h1 class="heading-1" data-aos="fade-left" data-aos-delay="150">
+              Unlocking Answers, One Investigation at a Time.
+            </h1>
+            <p class="body-1" data-aos="fade-up" data-aos-delay="200">
+              Our seasoned team of experts at Inkognito specializes in unravelling mysteries, conducting thorough
+              background checks, and uncovering the truth with utmost confidentiality.
+            </p>
+            <div class="row  g-4">
+              <div class="col-lg-6 col-12" data-aos="fade-up" data-aos-delay="250">
+                <div class="d-flex flex-column justify-content-center  gap-8 padding-8 py-3 bg-box">
+                  <i class="fa-solid fa-magnifying-glass icon-md"></i>
+                  <h2 class="heading-3">collect all evidence</h2>
+                  <p class="body-2">
+                    Our seasoned team of experts at Inkognito specializes in unravelling mysteries, conducting thorough
+                    background checks
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12" data-aos="fade-up" data-aos-delay="300">
+                <div class="d-flex flex-column justify-content-center  gap-8 padding-8 py-3 bg-box">
+                  <i class="fa-solid fa-binoculars icon-md"></i>
+                  <h2 class="heading-3">strong investigation team</h2>
+                  <p class="body-2">
+                    Our seasoned team of experts at Inkognito specializes in unravelling mysteries, conducting thorough
+                    background checks
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== End about section ========== -->
+
+
+  <!-- ============== start testimonials section ========== -->
+  <section class="testimonials position-relative pt-4 mt-4 section" id="testimonials">
+    <div class="container">
+      <div class="heading d-flex flex-column">
+        <h1 class="heading-1" data-aos="fade-up">Clients Share Their Inkognito Experience</h1>
+        <p class="body-1 col-lg-8" data-aos="fade-up" data-aos-delay="100">Our seasoned team of experts at Inkognito
+          specializes in unravelling mysteries,
+          conducting thorough background checks, and uncovering the truth with utmost confidentiality.</p>
+      </div>
+      <div class="row  mt-4 pt-2" data-aos="fade-up" data-aos-delay="160">
+        <div class="owl-carousel testimonial owl-theme">
+          <div class="item">
+            <div class="bg-box padding-16">
+              <div class="d-flex justify-content-between align-items-end my-2 ">
+                <div class="d-flex align-items-center justify-content-center gap-16">
+                  <div class="img">
+                    <img class="rounded-circle" src="static/picture/testimonials-1.jpg" alt="testimonial-img">
+                  </div>
+                  <div class="d-flex flex-column justify-content-center ">
+                    <h1 class="heading-3 m-0 p-0">
+                      ahmad errami
+                    </h1>
+                    <p class="body-2 m-0 p-0">service taker</p>
+                  </div>
+                </div>
+                <div class="justify-content-between">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <hr>
+              <p class="body-1 mt-4">-</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="bg-box padding-16">
+              <div class="d-flex justify-content-between align-items-end my-2 ">
+                <div class="d-flex align-items-center justify-content-center gap-16">
+                  <div class="img">
+                    <img class="rounded-circle" src="static/picture/testimonials-2.jpg" alt="testimonial-img">
+                  </div>
+                  <div class="d-flex flex-column justify-content-center ">
+                    <h1 class="heading-3 m-0 p-0">
+                      john smith
+                    </h1>
+                    <p class="body-2 m-0 p-0">service taker</p>
+                  </div>
+                </div>
+                <div class="justify-content-between">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <hr>
+              <p class="body-1 mt-4">-</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="bg-box padding-16">
+              <div class="d-flex justify-content-between align-items-end my-2 ">
+                <div class="d-flex align-items-center justify-content-center gap-16">
+                  <div class="img">
+                    <img class="rounded-circle" src="static/picture/testimonials-3.jpg" alt="testimonial-img">
+                  </div>
+                  <div class="d-flex flex-column justify-content-center ">
+                    <h1 class="heading-3 m-0 p-0">
+                      albert alderson
+                    </h1>
+                    <p class="body-2 m-0 p-0">service taker</p>
+                  </div>
+                </div>
+                <div class="justify-content-between">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <hr>
+              <p class="body-1 mt-4">-</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="bg-box padding-16">
+              <div class="d-flex justify-content-between align-items-end my-2 ">
+                <div class="d-flex align-items-center justify-content-center gap-16">
+                  <div class="img">
+                    <img class="rounded-circle" src="static/picture/testimonials-4.jpg" alt="testimonial-img">
+                  </div>
+                  <div class="d-flex flex-column justify-content-center ">
+                    <h1 class="heading-3 m-0 p-0">
+                      eliot pikman
+                    </h1>
+                    <p class="body-2 m-0 p-0">service taker</p>
+                  </div>
+                </div>
+                <div class="justify-content-between">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <hr>
+              <p class="body-1 mt-4">-
+			  </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== End testimonials section ========== -->
+
+  <!-- ============== Start team section ========== -->
+  <section class="team section" id="team">
+    <div class="container d-flex flex-column gap-64">
+      <div class="heading d-flex flex-column">
+        <h1 class="heading-1" data-aos="fade-up">团队核心人员</h1>
+        <p class="body-1 col-lg-8" data-aos="fade-up" data-aos-delay="100">确保代码质量，按计划将产品交付到客户手中。</p>
+      </div>
+      <div class="row justify-content-center align-items-center g-4">
+        <div class="col-lg-4 col-md-6 col-12" data-aos="fade-right" data-aos-delay="200">
+          <div class="d-flex flex-column align-items-center justify-content-center gap-16 bg-box">
+            <div class="img w-100">
+              <img src="static/picture/testimonials-1.jpg" alt="team member">
+            </div>
+            <div class="d-flex flex-column text-center justify-content-center align-items-center">
+              <h2 class="heading-2 m-0 p-0">WangHang</h2>
+              <p class="body-1 m-0 p-0">技术主管</p>
+              <div class="d-flex gap-3 py-3">
+                <a href="#"><i class="fa-brands fa-facebook grey-text icon-sm"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram grey-text icon-sm"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter grey-text icon-sm"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin grey-text icon-sm"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="150">
+          <div class="d-flex flex-column align-items-center justify-content-center gap-16 bg-box">
+            <div class="img w-100">
+              <img src="static/picture/testimonials-4.jpg" alt="team member">
+            </div>
+            <div class="d-flex flex-column text-center justify-content-center align-items-center">
+              <h2 class="heading-2 m-0 p-0">Lex</h2>
+              <p class="body-1 m-0 p-0">经理</p>
+              <div class="d-flex gap-3 py-3">
+                <a href="#"><i class="fa-brands fa-facebook grey-text icon-sm"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram grey-text icon-sm"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter grey-text icon-sm"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin grey-text icon-sm"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12" data-aos="fade-left" data-aos-delay="200">
+          <div class="d-flex flex-column align-items-center justify-content-center gap-16 bg-box">
+            <div class="img w-100">
+              <img src="static/picture/team-3.jpg" alt="team member">
+            </div>
+            <div class="d-flex flex-column text-center justify-content-center align-items-center">
+              <h2 class="heading-2 m-0 p-0">Jack</h2>
+              <p class="body-1 m-0 p-0">创始人</p>
+              <div class="d-flex gap-3 py-3">
+                <a href="#"><i class="fa-brands fa-facebook grey-text icon-sm"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram grey-text icon-sm"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter grey-text icon-sm"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin grey-text icon-sm"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== End team section ========== -->
+
+
+  <!-- ============== start faq section ========== -->
+  <section class="faq position-relative pt-4 mt-4" id="faq">
+    <div class="container section">
+      <div class="heading d-flex flex-column">
+        <h1 class="heading-1" data-aos="fade-up">常见问题答疑Q&A</h1>
+        <p class="body-1 col-lg-9" data-aos="fade-up" data-aos-delay="100">对软件行业不了解？想快速了解行业内幕</p>
+      </div>
+      <div class="row justify-content-center align-items-center g-4 mt-4 pt-2">
+        <div class="col-lg-4 col-12" data-aos="fade-right" data-aos-delay="150">
+          <div class="img">
+            <img src="static/picture/faq.jpg" alt="faq">
+          </div>
+        </div>
+        <div class="col-lg-8 col-12">
+          <div class="d-flex flex-column justify-content-center gap-16">
+            <div class="b-radius padding-16 bg-box" data-aos="fade-up" data-aos-delay="200">
+              <button class="btn col-12" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" onclick="rotateIcon('icon1')" aria-expanded="false">
+                <span class="d-flex justify-content-between w-100 m-0 p-0 heading-3">
+                  软件产品研发到使用的全生命周期？
+                  <i id="icon1" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                </span>
+              </button>
+              <div class="collapse" id="collapseOne">
+                <p class="body-1 mt-4">
+                  一般会经历 需求调研>系统架构>功能开发>功能测试>部署上线 几个节点流程，具体根据项目需求量，产品定位而变化。
+                </p>
+              </div>
+            </div>
+
+            <div class="box b-radius padding-16 bg-box" data-aos="fade-up" data-aos-delay="250">
+              <button class="btn col-12" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" onclick="rotateIcon('icon2')" aria-expanded="false">
+                <span class="d-flex justify-content-between w-100 heading-3 m-0 p-0">
+                  开发团队有哪些角色呢？
+                  <i id="icon2" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                </span>
+              </button>
+              <div class="collapse" id="collapseTwo">
+                <p class="body-2 mt-4">
+                  产品经理；项目经理；软件工程师（前、后端）；测试工程师；UI设计师；系统架构师；实施人员；
+                </p>
+              </div>
+            </div>
+
+            <div class="box b-radius padding-16 bg-box" data-aos="fade-up" data-aos-delay="300">
+              <button class="btn col-12" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" onclick="rotateIcon('icon3')" aria-expanded="false">
+                <span class="d-flex justify-content-between w-100 heading-3 m-0 p-0 ">
+                  项目周期一般多少呢？
+                  <i id="icon3" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                </span>
+              </button>
+              <div class="collapse" id="collapseThree">
+                <p class="body-2 mt-4">
+                  视情况而定，需求明确、短平快项目一般2-3月完结，中大型项目的周期取决于双方项目团队配合积极度，一般6-12个月甚至以上皆有可能。
+                </p>
+              </div>
+            </div>
+
+            <div class="b-radius padding-16 bg-box" data-aos="fade-up" data-aos-delay="350">
+              <button class="btn col-12" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" onclick="rotateIcon('icon4')" aria-expanded="false">
+                <span class="d-flex justify-content-between w-100 heading-3 m-0 p-0">
+                  是否私有化部署？是否源码移交？
+                  <i id="icon4" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                </span>
+              </button>
+              <div class="collapse" id="collapsefour">
+                <p class="body-2 mt-4">
+                  承诺所有项目均使用主流技术架构，项目完成后源码全部移交。
+                </p>
+              </div>
+            </div>
+
+            <div class="b-radius padding-16 bg-box" data-aos="fade-up" data-aos-delay="400">
+              <button class="btn col-12" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" onclick="rotateIcon('icon5')" aria-expanded="false">
+                <span class="d-flex justify-content-between w-100 heading-3 m-0 p-0">
+                  还有没有别的信息化系统？
+                  <i id="icon5" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                </span>
+              </button>
+              <div class="collapse" id="collapseFive">
+                <p class="body-2 mt-4">
+                  仓库管理系统（WMS）、人事行政系统（OA）、BI报表系统（BI,大屏）、异构系统打通（多系统数据打通），原有系统二次开发.....
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== end faq section ========== -->
+
+
+  <!-- ============== Start contact section ========== -->
+  <section class="contact position-relative pt-4 mt-4" id="contact">
+    <div class="container section position-relative padding-32">
+      <div class="row g-4">
+        <div class="col-lg-6 col-12">
+          <div class="d-flex flex-column gap-16">
+            <div class="heading d-flex flex-column">
+              <h1 class="heading-1" data-aos="fade-up">立刻与我们的团体取得联系</h1>
+              <p class="body-1 col-lg-9" data-aos="fade-up" data-aos-delay="100">我们经验丰富的开发团队，擅长定制化开发系统，并以最大的质量和保密性服务客户。</p>
+            </div>
+            <div class="d-flex flex-column justify-content-start gap-8" data-aos="fade-up" data-aos-delay="150">
+              <div class="d-flex align-items-center gap-8">
+                <div class="icon d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-phone icon-md"></i>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-self-center h-100">
+                  <h3 class="heading-3 m-0 p-0">电话</h3>
+                  <p class="body-2">+86 13008477126</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-start gap-8" data-aos="fade-up" data-aos-delay="200">
+              <div class="d-flex align-items-center gap-8 ">
+                <div class="icon d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-location-dot icon-md"></i>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-self-center h-100">
+                  <h3 class="heading-3 m-0 p-0">邮箱地址</h3>
+                  <p class="body-2">TaoLJA@mail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12">
+          <form action="contact.php" method="post" class="d-flex flex-column gap-16">
+            <div class="row g-3">
+              <div class="col-lg-6 col-12" data-aos="fade-right" data-aos-delay="150">
+                <input type="text" placeholder="姓名" id="name" name="name" required="" class="b-radius padding-16 w-100">
+              </div>
+              <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-delay="150">
+                <input type="text" placeholder="单位名称" id="subject" name="subject" required="" class="b-radius padding-16 w-100">
+              </div>
+            </div>
+            <input type="email" id="email" placeholder="邮箱地址" name="email" required="" class="b-radius padding-16" data-aos="fade-up" data-aos-delay="200">
+            <textarea id="message" placeholder="需求描述" name="message" required="" cols="30" rows="8" class="b-radius padding-16" data-aos="fade-up" data-aos-delay="250"></textarea>
+            <button type="submit" value="Submit" class="btn" data-aos="fade-up" data-aos-delay="300">获取方案</button>
+          </form>
+        </div>
+      </div>
+      <iframe class="contact-map mt-4 pt-2" data-aos="fade-up" data-aos-delay="350" src="embed.html" allowfullscreen=""></iframe>
+    </div>
+  </section>
+  <!-- ============== end contact section ========== -->
+
+
+
+  <!-- ============== start footer section ========== -->
+  <section class="footer position-relative pt-4 mt-4">
+    <div class="container">
+      <div class="row justify-content-center align-items-center g-4 py-2">
+        <div class="col-lg-9 col-12">
+          <div class="d-flex flex-column">
+            <h2 class="heading-2">inkognito</h2>
+            <p class="body-2 col-lg-8">Discover your dream home with our user-friendly interface and extensive property
+              listings.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12">
+          <div class="d-flex flex-lg-row flex-md-row flex-column gap-4">
+            <a href="#">home</a>
+            <a href="#">about us</a>
+            <a href="#">services</a>
+            <a href="#">contact</a>
+          </div>
+        </div>
+      </div>
+      <hr class="p-0 m-0">
+      <div class="row justify-content-center align-items-center g-4 py-2">
+        <div class="col-lg-6 col-12">
+          <div class="d-flex gap-3">
+            <i class="fa-brands fa-facebook icon-sm"></i>
+            <i class="fa-brands fa-instagram icon-sm"></i>
+            <i class="fa-brands fa-twitter icon-sm"></i>
+            <i class="fa-brands fa-linkedin icon-sm"></i>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12">
+          <div class="d-flex w-100 justify-content-lg-end justify-content-center align-items-center  align-items-lg-end">
+            <p class="body-2">Copyright &copy; 2024.Company name All rights reserved.<a target="_blank" href="https://www.genban.org/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ============== end footer section ========== -->
+
+
+  <!--  JQuery file     -->
+  <script src="static/js/jquery-3.6.1.min.js"></script>
+
+  <!--  JQuery pace file     -->
+  <script src="static/js/pace.js"></script>
+
+  <!--  JQuery bez file     -->
+  <script src="static/js/jquery.bez.js"></script>
+
+  <!--  toasts file     -->
+  <script src="static/js/toastr.min.js"></script>
+
+  <!--  JQuery TweenMax file     -->
+  <script src="static/js/TweenMax.min.js"></script>
+
+  <!--  owl carousel file     -->
+  <script src="static/js/owl.carousel.min.js"></script>
+
+  <!--  aos file     -->
+  <script src="static/js/aos.js"></script>
+
+  <!--  bootstrap bundle js file     -->
+  <script src="static/js/bootstrap.bundle.min.js"></script>
+
+  <!--  counter     -->
+  <script src="static/js/jquery.counterup.min.js"></script>
+  <script src="static/js/jquery.waypoints.js"></script>
+
+  <!--  main js file  -->
+  <script src="static/js/main.js"></script>
+
+	
+</body>
+
+</html>
